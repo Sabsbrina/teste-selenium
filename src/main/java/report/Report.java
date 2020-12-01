@@ -10,10 +10,10 @@ import org.openqa.selenium.WebDriver;
 @Log4j2
 public class Report extends DriverManager {
 
-    @Attachment(value = "Page Screenshot", type = "image/png")
-    public static byte[] TakeScreenShot() {
-        log.info("Tirando print screen da tela");
-        return ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.BYTES);
+    //@Attachment(value = "Page Screenshot", type = "image/png")
+    //public static byte[] TakeScreenShot() {
+       // log.info("Tirando print screen da tela");
+       // return ((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.BYTES);
     }
 
 }
